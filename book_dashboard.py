@@ -156,10 +156,6 @@ if pt is not None and similarities is not None:
         
         st.markdown("---")
         
-        # Quick stats
-        st.subheader("📊 Dataset Info")
-        st.info(f"Total books: {len(pt.index)}")
-        
         # Sample books
         st.subheader("📖 Sample Books")
         for book in pt.index[:5]:
